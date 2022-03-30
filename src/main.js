@@ -5,12 +5,13 @@ import store from './store'
 
 import { initializeApp } from "firebase/app";
 const firebaseConfig = {
-  apiKey: "AIzaSyCWnoFT1eoSfAs-j543julgVC1gE4AmhhA",
-  authDomain: "probando-fireb.firebaseapp.com",
-  projectId: "probando-fireb",
-  storageBucket: "probando-fireb.appspot.com",
-  messagingSenderId: "951368786824",
-  appId: "1:951368786824:web:eb9a66190e83fa3aa7503d"
+  apiKey: "AIzaSyBHG2Jje50AooiVYsnBP7epvvhA5N42I9M",
+  authDomain: "crud-vue-firebase-3af18.firebaseapp.com",
+  databaseURL: "https://crud-vue-firebase-3af18.firebaseio.com",
+  projectId: "crud-vue-firebase-3af18",
+  storageBucket: "crud-vue-firebase-3af18.appspot.com",
+  messagingSenderId: "563994405254",
+  appId: "1:563994405254:web:de40d82cd665edde68a407"
 };
 
 initializeApp(firebaseConfig);
